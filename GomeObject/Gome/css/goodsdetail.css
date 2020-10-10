@@ -1,0 +1,605 @@
+.gmtop {
+  height: 30px;
+  background-color: #f8f8f8; }
+  .gmtop .wbox {
+    width: 1200px;
+    margin: 0 auto; }
+    .gmtop .wbox .topl {
+      float: left;
+      position: relative; }
+      .gmtop .wbox .topl .gmvip {
+        display: none;
+        position: absolute; }
+      .gmtop .wbox .topl li {
+        float: left;
+        padding: 0 10px;
+        position: relative;
+        display: flex; }
+        .gmtop .wbox .topl li a {
+          color: #888888;
+          font-size: 12px;
+          line-height: 30px; }
+        .gmtop .wbox .topl li:hover {
+          background-color: #ffffff;
+          z-index: 3; }
+          .gmtop .wbox .topl li:hover a {
+            color: red; }
+          .gmtop .wbox .topl li:hover .gmvip {
+            display: block;
+            padding: 10px;
+            border: 1px solid gray;
+            background-color: #ffffff;
+            position: absolute;
+            left: 0;
+            top: 30px; }
+            .gmtop .wbox .topl li:hover .gmvip .viptop {
+              width: 250px;
+              height: 80px;
+              background-color: #ffffff;
+              border-bottom: 1px solid gray; }
+              .gmtop .wbox .topl li:hover .gmvip .viptop div {
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                background-color: pink;
+                margin-right: 20px;
+                float: left; }
+              .gmtop .wbox .topl li:hover .gmvip .viptop p {
+                float: left;
+                font-size: 12px;
+                height: 70px;
+                line-height: 70px;
+                color: #888888; }
+                .gmtop .wbox .topl li:hover .gmvip .viptop p a {
+                  color: royalblue; }
+            .gmtop .wbox .topl li:hover .gmvip .vipbottom {
+              width: 250px;
+              height: 80px; }
+              .gmtop .wbox .topl li:hover .gmvip .vipbottom .b1 {
+                overflow: hidden; }
+                .gmtop .wbox .topl li:hover .gmvip .vipbottom .b1 p {
+                  float: left;
+                  font-size: 12px;
+                  height: 20px;
+                  line-height: 20px;
+                  color: #888888; }
+                .gmtop .wbox .topl li:hover .gmvip .vipbottom .b1 a {
+                  float: right;
+                  font-size: 12px;
+                  line-height: 20px;
+                  color: #cccccc; }
+                  .gmtop .wbox .topl li:hover .gmvip .vipbottom .b1 a:hover {
+                    color: red; }
+              .gmtop .wbox .topl li:hover .gmvip .vipbottom .b2 {
+                height: 50px;
+                background-color: hotpink; }
+    .gmtop .wbox .topr {
+      float: right; }
+      .gmtop .wbox .topr li {
+        float: left;
+        padding: 0 10px;
+        position: relative; }
+        .gmtop .wbox .topr li a {
+          color: #888888;
+          font-size: 12px;
+          height: 30px;
+          line-height: 30px;
+          display: block; }
+        .gmtop .wbox .topr li:hover {
+          background-color: #ffffff; }
+          .gmtop .wbox .topr li:hover a {
+            color: red; }
+      .gmtop .wbox .topr li:nth-child(2) .gmvip {
+        z-index: 2;
+        background-color: #ffffff;
+        display: none; }
+      .gmtop .wbox .topr li:nth-child(2):hover .gmvip {
+        display: block;
+        position: absolute;
+        width: 200px;
+        height: 180px;
+        padding: 10px;
+        border: 1px solid gray; }
+        .gmtop .wbox .topr li:nth-child(2):hover .gmvip p {
+          font-size: 12px;
+          color: #888888;
+          font-weight: 600; }
+          .gmtop .wbox .topr li:nth-child(2):hover .gmvip p a {
+            display: inline;
+            color: royalblue; }
+        .gmtop .wbox .topr li:nth-child(2):hover .gmvip ul {
+          overflow: hidden;
+          border-bottom: 1px solid gray; }
+          .gmtop .wbox .topr li:nth-child(2):hover .gmvip ul li {
+            float: left; }
+            .gmtop .wbox .topr li:nth-child(2):hover .gmvip ul li a {
+              color: #888888;
+              width: 80px; }
+              .gmtop .wbox .topr li:nth-child(2):hover .gmvip ul li a:hover {
+                color: red; }
+        .gmtop .wbox .topr li:nth-child(2):hover .gmvip .discount a {
+          color: #888888; }
+          .gmtop .wbox .topr li:nth-child(2):hover .gmvip .discount a:hover {
+            color: red; }
+        .gmtop .wbox .topr li:nth-child(2):hover .gmvip .history {
+          display: flex;
+          justify-content: space-between; }
+          .gmtop .wbox .topr li:nth-child(2):hover .gmvip .history div {
+            width: 40px;
+            height: 40px;
+            background-color: pink;
+            margin-top: 5px; }
+      .gmtop .wbox .topr li:nth-child(3) .gmvip {
+        z-index: 2;
+        display: none;
+        background-color: #ffffff; }
+      .gmtop .wbox .topr li:nth-child(3):hover .gmvip {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        right: 0;
+        border: 1px solid gray; }
+        .gmtop .wbox .topr li:nth-child(3):hover .gmvip img {
+          width: 120px;
+          height: 120px; }
+      .gmtop .wbox .topr li:nth-child(4) .gmvip {
+        z-index: 2;
+        display: none;
+        background-color: #ffffff; }
+      .gmtop .wbox .topr li:nth-child(4):hover .gmvip {
+        display: block;
+        width: 200px;
+        height: 150px;
+        padding: 10px;
+        border: 1px solid gray;
+        background-color: #ffffff;
+        position: absolute; }
+        .gmtop .wbox .topr li:nth-child(4):hover .gmvip p {
+          font-size: 12px;
+          line-height: 20px;
+          color: #888888;
+          font-weight: 600; }
+        .gmtop .wbox .topr li:nth-child(4):hover .gmvip ul {
+          overflow: hidden; }
+          .gmtop .wbox .topr li:nth-child(4):hover .gmvip ul li {
+            float: left;
+            padding: 0; }
+            .gmtop .wbox .topr li:nth-child(4):hover .gmvip ul li a {
+              width: 60px;
+              height: 20px;
+              line-height: 20px;
+              font-size: 12px;
+              color: #888888; }
+            .gmtop .wbox .topr li:nth-child(4):hover .gmvip ul li:hover a {
+              color: red; }
+        .gmtop .wbox .topr li:nth-child(4):hover .gmvip input {
+          width: 100%;
+          height: 20px;
+          margin-top: 10px;
+          font-size: 14px;
+          color: #ffffff;
+          line-height: 20px;
+          background-color: hotpink; }
+      .gmtop .wbox .topr li:nth-child(5) .gmvip {
+        z-index: 2;
+        display: none; }
+      .gmtop .wbox .topr li:nth-child(5):hover {
+        z-index: 2; }
+        .gmtop .wbox .topr li:nth-child(5):hover .gmvip {
+          display: block;
+          height: 200px;
+          width: 1200px;
+          padding: 20px;
+          position: absolute;
+          left: -1080px;
+          border: 1px solid gray;
+          background-color: #ffffff; }
+          .gmtop .wbox .topr li:nth-child(5):hover .gmvip div {
+            float: left;
+            padding: 0 10px;
+            height: 200px; }
+            .gmtop .wbox .topr li:nth-child(5):hover .gmvip div p {
+              height: 40px;
+              line-height: 40px;
+              font-size: 16px;
+              color: #888888; }
+            .gmtop .wbox .topr li:nth-child(5):hover .gmvip div ul {
+              overflow: hidden; }
+              .gmtop .wbox .topr li:nth-child(5):hover .gmvip div ul li {
+                float: left;
+                width: 60px; }
+                .gmtop .wbox .topr li:nth-child(5):hover .gmvip div ul li a {
+                  color: #888888; }
+                  .gmtop .wbox .topr li:nth-child(5):hover .gmvip div ul li a:hover {
+                    color: red; }
+          .gmtop .wbox .topr li:nth-child(5):hover .gmvip .d1 {
+            width: 250px; }
+          .gmtop .wbox .topr li:nth-child(5):hover .gmvip .d2 {
+            width: 400px;
+            border-left: 1px solid gray;
+            border-right: 1px solid gray; }
+          .gmtop .wbox .topr li:nth-child(5):hover .gmvip .d3 {
+            width: 200px; }
+          .gmtop .wbox .topr li:nth-child(5):hover .gmvip .d4 {
+            width: 110px;
+            border-left: 1px solid gray;
+            border-right: 1px solid gray; }
+          .gmtop .wbox .topr li:nth-child(5):hover .gmvip .d5 {
+            width: 110px; }
+      .gmtop .wbox .topr li:nth-child(6) .gmvip {
+        display: none;
+        z-index: 2; }
+      .gmtop .wbox .topr li:nth-child(6):hover .gmvip {
+        position: absolute;
+        right: 0;
+        border: 1px solid gray;
+        display: flex;
+        width: 150px;
+        height: 150px;
+        justify-content: center;
+        align-items: center; }
+        .gmtop .wbox .topr li:nth-child(6):hover .gmvip a {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+          background-color: #ffffff; }
+          .gmtop .wbox .topr li:nth-child(6):hover .gmvip a p {
+            color: red;
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 600; }
+
+#head .con {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between; }
+
+#head #head_c form {
+  display: flex;
+  margin-top: 10px;
+  position: relative;
+  justify-content: flex-start;
+  border: 1px solid #dd00a7; }
+  #head #head_c form .searchSelect {
+    width: 62px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #888888;
+    text-align: center;
+    position: relative;
+    border-right: 1px solid #dd00a7; }
+    #head #head_c form .searchSelect div {
+      display: none;
+      position: relative; }
+      #head #head_c form .searchSelect div a {
+        display: block;
+        width: 62px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 12px;
+        color: #888888;
+        text-align: center;
+        border-left: 1px solid #dd00a7;
+        border-right: 1px solid #dd00a7; }
+    #head #head_c form .searchSelect div:nth-child(2) {
+      border-bottom: 1px solid #dd00a7; }
+    #head #head_c form .searchSelect:hover div {
+      z-index: 2;
+      display: block;
+      background-color: #ffffff; }
+      #head #head_c form .searchSelect:hover div a:hover {
+        background-color: antiquewhite; }
+  #head #head_c form .inputcontent {
+    width: 300px;
+    background-color: #ffffff;
+    outline: none; }
+  #head #head_c form .search {
+    width: 60px;
+    color: #ffffff;
+    background-color: #dd00a7; }
+  #head #head_c form .searchlocal {
+    width: 50px;
+    color: #ffffff;
+    background-color: #888888;
+    margin-left: 2px; }
+  #head #head_c form ul {
+    position: absolute;
+    top: 35px;
+    width: 110%; }
+    #head #head_c form ul li {
+      float: left; }
+      #head #head_c form ul li a {
+        display: block;
+        padding-right: 5px;
+        color: #888888;
+        font-size: 12px; }
+        #head #head_c form ul li a:hover {
+          color: red; }
+
+#head #head_r {
+  margin-top: 10px;
+  position: relative; }
+  #head #head_r a {
+    display: block;
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #888888;
+    text-indent: 50px;
+    background-image: url("../images/ia_100000272.gif"); }
+    #head #head_r a:hover {
+      color: red;
+      text-decoration: underline; }
+
+#Nav {
+  background-color: #333333;
+  margin-bottom: 20px; }
+  #Nav .wbox {
+    width: 1200px;
+    margin: 0 auto; }
+    #Nav .wbox ul {
+      overflow: hidden; }
+      #Nav .wbox ul li {
+        float: left; }
+        #Nav .wbox ul li a {
+          display: block;
+          padding: 0 20px;
+          height: 40px;
+          line-height: 40px;
+          font-size: 20px;
+          color: #ffffff; }
+
+#magnify .wbox {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden; }
+  #magnify .wbox #picture {
+    float: left;
+    width: 450px;
+    height: 450px;
+    position: relative; }
+    #magnify .wbox #picture #small {
+      display: none;
+      width: 200px;
+      height: 200px;
+      top: 0;
+      opacity: 0.3;
+      position: absolute;
+      background-color: #000000; }
+  #magnify .wbox #big {
+    display: none;
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    left: 450px;
+    top: 0;
+    overflow: hidden; }
+    #magnify .wbox #big img {
+      position: absolute;
+      width: 1012px;
+      height: 1012px; }
+  #magnify .wbox .goodsmsg {
+    float: right;
+    width: 720px;
+    height: 500px; }
+    #magnify .wbox .goodsmsg .hgroup {
+      width: 610px;
+      padding-bottom: 15px; }
+      #magnify .wbox .goodsmsg .hgroup h1 {
+        padding-top: 5px;
+        font-size: 16px;
+        line-height: 26px;
+        color: #5e5e5e; }
+      #magnify .wbox .goodsmsg .hgroup h2 {
+        padding-top: 5px;
+        font-size: 12px;
+        line-height: 20px;
+        color: #e3101e; }
+    #magnify .wbox .goodsmsg .figure img {
+      width: 100%; }
+    #magnify .wbox .goodsmsg .price {
+      padding: 20px;
+      overflow: hidden;
+      background-color: #f6f6f6;
+      margin-bottom: 20px; }
+      #magnify .wbox .goodsmsg .price label {
+        display: block;
+        float: left;
+        font-size: 12px;
+        height: 34px;
+        line-height: 34px;
+        color: #888888; }
+      #magnify .wbox .goodsmsg .price span {
+        display: block;
+        float: left;
+        font-size: 24px;
+        line-height: 34px;
+        height: 34px;
+        color: #e3101e;
+        margin: 0 10px; }
+      #magnify .wbox .goodsmsg .price a {
+        display: block;
+        float: left;
+        font-size: 12px;
+        line-height: 34px;
+        height: 34px;
+        color: #006699; }
+    #magnify .wbox .goodsmsg .colorparent,
+    #magnify .wbox .goodsmsg .cacheparent,
+    #magnify .wbox .goodsmsg .serveparent {
+      overflow: hidden; }
+      #magnify .wbox .goodsmsg .colorparent #color .Left,
+      #magnify .wbox .goodsmsg .colorparent #cache .Left,
+      #magnify .wbox .goodsmsg .colorparent .serve .Left,
+      #magnify .wbox .goodsmsg .cacheparent #color .Left,
+      #magnify .wbox .goodsmsg .cacheparent #cache .Left,
+      #magnify .wbox .goodsmsg .cacheparent .serve .Left,
+      #magnify .wbox .goodsmsg .serveparent #color .Left,
+      #magnify .wbox .goodsmsg .serveparent #cache .Left,
+      #magnify .wbox .goodsmsg .serveparent .serve .Left {
+        float: left;
+        line-height: 38px;
+        font-size: 12px;
+        padding: 0 20px;
+        color: #888888; }
+      #magnify .wbox .goodsmsg .colorparent #color a,
+      #magnify .wbox .goodsmsg .colorparent #cache a,
+      #magnify .wbox .goodsmsg .colorparent .serve a,
+      #magnify .wbox .goodsmsg .cacheparent #color a,
+      #magnify .wbox .goodsmsg .cacheparent #cache a,
+      #magnify .wbox .goodsmsg .cacheparent .serve a,
+      #magnify .wbox .goodsmsg .serveparent #color a,
+      #magnify .wbox .goodsmsg .serveparent #cache a,
+      #magnify .wbox .goodsmsg .serveparent .serve a {
+        display: block;
+        float: left;
+        margin: 0 10px 10px 0;
+        padding: 10px;
+        font-size: 12px;
+        color: #888888;
+        border: 1px solid #ccc; }
+        #magnify .wbox .goodsmsg .colorparent #color a.active,
+        #magnify .wbox .goodsmsg .colorparent #cache a.active,
+        #magnify .wbox .goodsmsg .colorparent .serve a.active,
+        #magnify .wbox .goodsmsg .cacheparent #color a.active,
+        #magnify .wbox .goodsmsg .cacheparent #cache a.active,
+        #magnify .wbox .goodsmsg .cacheparent .serve a.active,
+        #magnify .wbox .goodsmsg .serveparent #color a.active,
+        #magnify .wbox .goodsmsg .serveparent #cache a.active,
+        #magnify .wbox .goodsmsg .serveparent .serve a.active {
+          border: 1px solid #e3101e;
+          color: #e3101e; }
+    #magnify .wbox .goodsmsg .buttons {
+      margin-top: 30px;
+      padding-left: 20px;
+      overflow: hidden; }
+      #magnify .wbox .goodsmsg .buttons .btnLeft {
+        float: left;
+        width: 46px;
+        height: 38px;
+        border: 1px solid #cccccc; }
+        #magnify .wbox .goodsmsg .buttons .btnLeft #sum {
+          float: left;
+          height: 38px;
+          line-height: 38px;
+          text-align: center;
+          width: 26px; }
+        #magnify .wbox .goodsmsg .buttons .btnLeft a {
+          float: left;
+          width: 19px;
+          height: 18px;
+          line-height: 18px;
+          text-align: center; }
+        #magnify .wbox .goodsmsg .buttons .btnLeft #add {
+          border-left: 1px solid #cccccc;
+          border-bottom: 1px solid #cccccc; }
+        #magnify .wbox .goodsmsg .buttons .btnLeft #desc {
+          border-left: 1px solid #cccccc; }
+      #magnify .wbox .goodsmsg .buttons #btnRight {
+        float: left;
+        margin: 0 50px; }
+        #magnify .wbox .goodsmsg .buttons #btnRight a {
+          display: block;
+          width: 150px;
+          height: 40px;
+          background-color: #e3101e;
+          line-height: 40px;
+          text-align: center; }
+    #magnify .wbox .goodsmsg .tips {
+      margin: 30px 20px;
+      color: #888888;
+      font-size: 14px; }
+
+#picList {
+  margin-bottom: 30px; }
+  #picList .wbox {
+    width: 1200px;
+    margin: 0 auto; }
+    #picList .wbox ul {
+      overflow: hidden; }
+      #picList .wbox ul li {
+        float: left;
+        margin: 0 40px;
+        border: 1px solid transparent; }
+        #picList .wbox ul li:hover {
+          border-color: #e3101e; }
+
+#gomehelp {
+  border-bottom: 1px solid #e74ccc; }
+  #gomehelp .wbox {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly; }
+    #gomehelp .wbox dl {
+      float: left;
+      width: 160px;
+      height: 150px; }
+      #gomehelp .wbox dl dt {
+        color: #5e5e5e;
+        font-size: 16px; }
+      #gomehelp .wbox dl dd a {
+        height: 18px;
+        line-height: 18px;
+        font-size: 12px;
+        color: #a5a5a5; }
+        #gomehelp .wbox dl dd a:hover {
+          color: #e74ccc; }
+
+#foot {
+  background-color: #f7f7f7;
+  overflow: hidden;
+  padding-bottom: 40px; }
+  #foot .wbox {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px; }
+    #foot .wbox .footTop {
+      display: inline-block;
+      margin: 0 50px 40px 0; }
+      #foot .wbox .footTop p {
+        display: inline-block;
+        height: 40px;
+        margin-left: 10px; }
+        #foot .wbox .footTop p a {
+          font-size: 12px;
+          color: #a5a5a5; }
+          #foot .wbox .footTop p a:hover {
+            color: #f5004b; }
+      #foot .wbox .footTop i {
+        font-size: 40px; }
+    #foot .wbox .footbot .footul {
+      margin: 5px 0;
+      overflow: hidden; }
+      #foot .wbox .footbot .footul li {
+        float: left;
+        font-size: 14px;
+        margin-right: 10px;
+        color: #a5a5a5; }
+        #foot .wbox .footbot .footul li a {
+          font-size: 14px;
+          color: #666666; }
+          #foot .wbox .footbot .footul li a:hover {
+            color: #ff0027; }
+    #foot .wbox .footbot p {
+      height: 20px;
+      line-height: 20px;
+      font-size: 12px;
+      color: #a5a5a5; }
+      #foot .wbox .footbot p a {
+        font-size: 12px;
+        color: #a5a5a5; }
+        #foot .wbox .footbot p a:hover {
+          color: #ff0027; }

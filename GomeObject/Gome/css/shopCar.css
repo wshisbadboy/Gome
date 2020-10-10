@@ -1,0 +1,529 @@
+.gmtop {
+  height: 30px;
+  background-color: #f8f8f8; }
+  .gmtop .wbox {
+    width: 1200px;
+    margin: 0 auto; }
+    .gmtop .wbox .topl {
+      float: left;
+      position: relative; }
+      .gmtop .wbox .topl .gmvip {
+        display: none;
+        position: absolute; }
+      .gmtop .wbox .topl li {
+        float: left;
+        padding: 0 10px;
+        position: relative;
+        display: flex; }
+        .gmtop .wbox .topl li a {
+          color: #888888;
+          font-size: 12px;
+          line-height: 30px; }
+        .gmtop .wbox .topl li:hover {
+          background-color: #ffffff;
+          z-index: 3; }
+          .gmtop .wbox .topl li:hover a {
+            color: red; }
+          .gmtop .wbox .topl li:hover .gmvip {
+            display: block;
+            padding: 10px;
+            border: 1px solid gray;
+            background-color: #ffffff;
+            position: absolute;
+            left: 0;
+            top: 30px; }
+            .gmtop .wbox .topl li:hover .gmvip .viptop {
+              width: 250px;
+              height: 80px;
+              background-color: #ffffff;
+              border-bottom: 1px solid gray; }
+              .gmtop .wbox .topl li:hover .gmvip .viptop div {
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                background-color: pink;
+                margin-right: 20px;
+                float: left; }
+              .gmtop .wbox .topl li:hover .gmvip .viptop p {
+                float: left;
+                font-size: 12px;
+                height: 70px;
+                line-height: 70px;
+                color: #888888; }
+                .gmtop .wbox .topl li:hover .gmvip .viptop p a {
+                  color: royalblue; }
+            .gmtop .wbox .topl li:hover .gmvip .vipbottom {
+              width: 250px;
+              height: 80px; }
+              .gmtop .wbox .topl li:hover .gmvip .vipbottom .b1 {
+                overflow: hidden; }
+                .gmtop .wbox .topl li:hover .gmvip .vipbottom .b1 p {
+                  float: left;
+                  font-size: 12px;
+                  height: 20px;
+                  line-height: 20px;
+                  color: #888888; }
+                .gmtop .wbox .topl li:hover .gmvip .vipbottom .b1 a {
+                  float: right;
+                  font-size: 12px;
+                  line-height: 20px;
+                  color: #cccccc; }
+                  .gmtop .wbox .topl li:hover .gmvip .vipbottom .b1 a:hover {
+                    color: red; }
+              .gmtop .wbox .topl li:hover .gmvip .vipbottom .b2 {
+                height: 50px;
+                background-color: hotpink; }
+    .gmtop .wbox .topr {
+      float: right; }
+      .gmtop .wbox .topr li {
+        float: left;
+        padding: 0 10px;
+        position: relative; }
+        .gmtop .wbox .topr li a {
+          color: #888888;
+          font-size: 12px;
+          height: 30px;
+          line-height: 30px;
+          display: block; }
+        .gmtop .wbox .topr li:hover {
+          background-color: #ffffff; }
+          .gmtop .wbox .topr li:hover a {
+            color: red; }
+      .gmtop .wbox .topr li:nth-child(2) .gmvip {
+        z-index: 2;
+        background-color: #ffffff;
+        display: none; }
+      .gmtop .wbox .topr li:nth-child(2):hover .gmvip {
+        display: block;
+        position: absolute;
+        width: 200px;
+        height: 180px;
+        padding: 10px;
+        border: 1px solid gray; }
+        .gmtop .wbox .topr li:nth-child(2):hover .gmvip p {
+          font-size: 12px;
+          color: #888888;
+          font-weight: 600; }
+          .gmtop .wbox .topr li:nth-child(2):hover .gmvip p a {
+            display: inline;
+            color: royalblue; }
+        .gmtop .wbox .topr li:nth-child(2):hover .gmvip ul {
+          overflow: hidden;
+          border-bottom: 1px solid gray; }
+          .gmtop .wbox .topr li:nth-child(2):hover .gmvip ul li {
+            float: left; }
+            .gmtop .wbox .topr li:nth-child(2):hover .gmvip ul li a {
+              color: #888888;
+              width: 80px; }
+              .gmtop .wbox .topr li:nth-child(2):hover .gmvip ul li a:hover {
+                color: red; }
+        .gmtop .wbox .topr li:nth-child(2):hover .gmvip .discount a {
+          color: #888888; }
+          .gmtop .wbox .topr li:nth-child(2):hover .gmvip .discount a:hover {
+            color: red; }
+        .gmtop .wbox .topr li:nth-child(2):hover .gmvip .history {
+          display: flex;
+          justify-content: space-between; }
+          .gmtop .wbox .topr li:nth-child(2):hover .gmvip .history div {
+            width: 40px;
+            height: 40px;
+            background-color: pink;
+            margin-top: 5px; }
+      .gmtop .wbox .topr li:nth-child(3) .gmvip {
+        z-index: 2;
+        display: none;
+        background-color: #ffffff; }
+      .gmtop .wbox .topr li:nth-child(3):hover .gmvip {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        right: 0;
+        border: 1px solid gray; }
+        .gmtop .wbox .topr li:nth-child(3):hover .gmvip img {
+          width: 120px;
+          height: 120px; }
+      .gmtop .wbox .topr li:nth-child(4) .gmvip {
+        z-index: 2;
+        display: none;
+        background-color: #ffffff; }
+      .gmtop .wbox .topr li:nth-child(4):hover .gmvip {
+        display: block;
+        width: 200px;
+        height: 150px;
+        padding: 10px;
+        border: 1px solid gray;
+        background-color: #ffffff;
+        position: absolute; }
+        .gmtop .wbox .topr li:nth-child(4):hover .gmvip p {
+          font-size: 12px;
+          line-height: 20px;
+          color: #888888;
+          font-weight: 600; }
+        .gmtop .wbox .topr li:nth-child(4):hover .gmvip ul {
+          overflow: hidden; }
+          .gmtop .wbox .topr li:nth-child(4):hover .gmvip ul li {
+            float: left;
+            padding: 0; }
+            .gmtop .wbox .topr li:nth-child(4):hover .gmvip ul li a {
+              width: 60px;
+              height: 20px;
+              line-height: 20px;
+              font-size: 12px;
+              color: #888888; }
+            .gmtop .wbox .topr li:nth-child(4):hover .gmvip ul li:hover a {
+              color: red; }
+        .gmtop .wbox .topr li:nth-child(4):hover .gmvip input {
+          width: 100%;
+          height: 20px;
+          margin-top: 10px;
+          font-size: 14px;
+          color: #ffffff;
+          line-height: 20px;
+          background-color: hotpink; }
+      .gmtop .wbox .topr li:nth-child(5) .gmvip {
+        z-index: 2;
+        display: none; }
+      .gmtop .wbox .topr li:nth-child(5):hover {
+        z-index: 2; }
+        .gmtop .wbox .topr li:nth-child(5):hover .gmvip {
+          display: block;
+          height: 200px;
+          width: 1200px;
+          padding: 20px;
+          position: absolute;
+          left: -1080px;
+          border: 1px solid gray;
+          background-color: #ffffff; }
+          .gmtop .wbox .topr li:nth-child(5):hover .gmvip div {
+            float: left;
+            padding: 0 10px;
+            height: 200px; }
+            .gmtop .wbox .topr li:nth-child(5):hover .gmvip div p {
+              height: 40px;
+              line-height: 40px;
+              font-size: 16px;
+              color: #888888; }
+            .gmtop .wbox .topr li:nth-child(5):hover .gmvip div ul {
+              overflow: hidden; }
+              .gmtop .wbox .topr li:nth-child(5):hover .gmvip div ul li {
+                float: left;
+                width: 60px; }
+                .gmtop .wbox .topr li:nth-child(5):hover .gmvip div ul li a {
+                  color: #888888; }
+                  .gmtop .wbox .topr li:nth-child(5):hover .gmvip div ul li a:hover {
+                    color: red; }
+          .gmtop .wbox .topr li:nth-child(5):hover .gmvip .d1 {
+            width: 250px; }
+          .gmtop .wbox .topr li:nth-child(5):hover .gmvip .d2 {
+            width: 400px;
+            border-left: 1px solid gray;
+            border-right: 1px solid gray; }
+          .gmtop .wbox .topr li:nth-child(5):hover .gmvip .d3 {
+            width: 200px; }
+          .gmtop .wbox .topr li:nth-child(5):hover .gmvip .d4 {
+            width: 110px;
+            border-left: 1px solid gray;
+            border-right: 1px solid gray; }
+          .gmtop .wbox .topr li:nth-child(5):hover .gmvip .d5 {
+            width: 110px; }
+      .gmtop .wbox .topr li:nth-child(6) .gmvip {
+        display: none;
+        z-index: 2; }
+      .gmtop .wbox .topr li:nth-child(6):hover .gmvip {
+        position: absolute;
+        right: 0;
+        border: 1px solid gray;
+        display: flex;
+        width: 150px;
+        height: 150px;
+        justify-content: center;
+        align-items: center; }
+        .gmtop .wbox .topr li:nth-child(6):hover .gmvip a {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+          background-color: #ffffff; }
+          .gmtop .wbox .topr li:nth-child(6):hover .gmvip a p {
+            color: red;
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 600; }
+
+#gomeLogo .wbox {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 30px 0;
+  height: 60px; }
+  #gomeLogo .wbox a {
+    width: 200px; }
+    #gomeLogo .wbox a img {
+      float: left; }
+    #gomeLogo .wbox a div {
+      float: left;
+      font-size: 35px;
+      padding: 0 10px;
+      margin: 5px 0 0 20px;
+      border-left: 1px solid #cccccc;
+      color: #cccccc; }
+
+#tips {
+  overflow: hidden; }
+  #tips .wbox {
+    width: 1200px;
+    margin: 0 auto; }
+    #tips .wbox .ltip {
+      float: left;
+      padding: 10px 0;
+      font-size: 16px; }
+      #tips .wbox .ltip a {
+        display: inline-block;
+        padding: 4px 8px;
+        background-color: #e3101e;
+        color: #ffffff; }
+    #tips .wbox .rtip {
+      float: right;
+      padding: 10px;
+      font-size: 16px;
+      position: relative;
+      display: flex;
+      width: 500px;
+      justify-content: space-between; }
+      #tips .wbox .rtip div {
+        position: absolute;
+        right: 0;
+        top: 0; }
+        #tips .wbox .rtip div span {
+          color: #888888; }
+        #tips .wbox .rtip div a {
+          display: inline-block;
+          padding: 6px 10px;
+          border: 1px solid #888888; }
+
+.hand {
+  cursor: pointer; }
+
+#car .wbox {
+  width: 1200px;
+  margin: 0 auto; }
+  #car .wbox .active {
+    background-color: red; }
+  #car .wbox .carTop {
+    height: 40px;
+    width: 100%;
+    background-color: #cccccc;
+    font-size: 16px;
+    padding-top: 20px; }
+    #car .wbox .carTop .bg {
+      background-color: #e3101e; }
+    #car .wbox .carTop .chooseAll {
+      float: left;
+      width: 20px;
+      height: 20px;
+      color: #ffffff;
+      text-align: center;
+      background-color: #ffffff;
+      margin: 0 30px 0 30px; }
+      #car .wbox .carTop .chooseAll i {
+        display: block;
+        width: 20px;
+        height: 20px; }
+    #car .wbox .carTop .chooseText, #car .wbox .carTop .goodsmsg, #car .wbox .carTop .goods, #car .wbox .carTop .num, #car .wbox .carTop .sum {
+      float: left;
+      margin-right: 150px; }
+    #car .wbox .carTop .goodsmsg {
+      margin-right: 280px; }
+    #car .wbox .carTop .handle {
+      float: left; }
+  #car .wbox .carGoodsList {
+    height: 130px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border: 1px solid #888888; }
+    #car .wbox .carGoodsList .bg {
+      background-color: #e3101e; }
+    #car .wbox .carGoodsList .handle {
+      width: 50px;
+      height: 20px; }
+    #car .wbox .carGoodsList .choose {
+      float: left;
+      width: 20px;
+      height: 20px;
+      color: #ffffff;
+      background-color: #ffffff;
+      text-align: center;
+      margin: 20px 30px 0 30px;
+      border: 1px solid #cccccc;
+      cursor: pointer; }
+      #car .wbox .carGoodsList .choose i {
+        display: block;
+        width: 20px;
+        height: 20px; }
+    #car .wbox .carGoodsList .chooseText a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      overflow: hidden; }
+    #car .wbox .carGoodsList .chooseText img {
+      float: left;
+      width: 100px;
+      height: 100px; }
+    #car .wbox .carGoodsList .chooseText p {
+      float: right;
+      width: 200px;
+      font-size: 14px;
+      height: 40px;
+      line-height: 20px;
+      margin: 0 0 0 10px; }
+    #car .wbox .carGoodsList .goodservice {
+      font-size: 16px;
+      color: #a5a5a5;
+      margin-left: 30px; }
+    #car .wbox .carGoodsList .goods {
+      width: 100px;
+      height: 20px;
+      margin-left: 60px; }
+    #car .wbox .carGoodsList .num {
+      overflow: hidden;
+      margin-left: 90px; }
+      #car .wbox .carGoodsList .num div {
+        width: 30px;
+        height: 20px;
+        line-height: 20px;
+        float: left;
+        text-align: center;
+        border: 1px solid #a5a5a5; }
+      #car .wbox .carGoodsList .num .sum {
+        width: 160px;
+        height: 20px;
+        margin-left: 50px;
+        margin-right: 40px;
+        font-weight: 700;
+        border: none; }
+      #car .wbox .carGoodsList .num div:nth-child(2) {
+        border-right: 1px solid #a5a5a5;
+        border-left: 1px solid #a5a5a5; }
+    #car .wbox .carGoodsList .chooseText, #car .wbox .carGoodsList .goodservice, #car .wbox .carGoodsList .goods, #car .wbox .carGoodsList .num, #car .wbox .carGoodsList .sum, #car .wbox .carGoodsList .handle {
+      float: left; }
+  #car .wbox .carBot {
+    background-color: #cccccc;
+    width: 200%;
+    margin-left: -50%;
+    margin-top: 30px;
+    margin-bottom: 30px; }
+    #car .wbox .carBot .content {
+      width: 1200px;
+      margin: 0 auto;
+      overflow: hidden; }
+      #car .wbox .carBot .content .clearAll {
+        float: left;
+        width: 950px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px; }
+        #car .wbox .carBot .content .clearAll span {
+          color: red;
+          font-size: 20px;
+          font-weight: 700; }
+      #car .wbox .carBot .content .clearAccount {
+        display: block;
+        float: right;
+        width: 200px;
+        height: 70px;
+        line-height: 70px;
+        background-color: #e3101e;
+        text-align: center;
+        color: #ffffff; }
+
+#recomment .wbox {
+  width: 1200px;
+  margin: 0 auto; }
+  #recomment .wbox p {
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #cccccc;
+    border-bottom: none;
+    color: red;
+    background-color: #ffffff; }
+  #recomment .wbox ul {
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #cccccc; }
+    #recomment .wbox ul li {
+      float: left; }
+      #recomment .wbox ul li img {
+        width: 100px;
+        height: 100px; }
+      #recomment .wbox ul li a {
+        display: block;
+        width: 150px;
+        text-align: center; }
+      #recomment .wbox ul li p {
+        width: 100%;
+        height: 40px;
+        line-height: 20px;
+        font-size: 12px;
+        margin-top: 5px;
+        overflow: hidden;
+        color: #000000;
+        border: none; }
+      #recomment .wbox ul li span {
+        display: block;
+        font-size: 14px;
+        color: red;
+        margin: 5px 0; }
+      #recomment .wbox ul li .joincar {
+        width: 100px;
+        height: 20px;
+        margin-left: 25px;
+        line-height: 20px;
+        font-size: 14px;
+        text-align: center;
+        border: 1px solid #cccccc;
+        cursor: pointer; }
+
+#foot {
+  background-color: #f7f7f7;
+  overflow: hidden;
+  padding-bottom: 40px;
+  border-top: 1px solid red; }
+  #foot .wbox {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px; }
+    #foot .wbox .footbot .footul {
+      margin: 5px 0;
+      overflow: hidden; }
+      #foot .wbox .footbot .footul li {
+        float: left;
+        font-size: 14px;
+        margin-right: 10px;
+        color: #a5a5a5; }
+        #foot .wbox .footbot .footul li a {
+          font-size: 14px;
+          color: #666666; }
+          #foot .wbox .footbot .footul li a:hover {
+            color: #ff0027; }
+    #foot .wbox .footbot p {
+      height: 20px;
+      line-height: 20px;
+      font-size: 12px;
+      color: #a5a5a5; }
+      #foot .wbox .footbot p a {
+        font-size: 12px;
+        color: #a5a5a5; }
+        #foot .wbox .footbot p a:hover {
+          color: #ff0027; }

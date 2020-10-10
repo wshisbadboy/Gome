@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, tr, th, td, dl, dt, dd, p, input, form, select, fieldset, legend, textarea, ul, ol, li {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 16px;
+  font-family: "微软雅黑"; }
+
+h1, h2, h3, h4, h5, h5, h6 {
+  font-weight: normal;
+  font-size: 16px; }
+
+ol, ul, li {
+  font-size: 16px;
+  list-style: none; }
+
+i, em {
+  font-style: normal; }
+
+b, strong {
+  font-weight: normal; }
+
+a, u {
+  text-decoration: none; }
+
+a {
+  color: #000000; }
+
+img {
+  border: 0;
+  vertical-align: middle; }
+
+input, textarea, fieldset {
+  outline: none;
+  border: 0; }

@@ -1,0 +1,674 @@
+.gmtop {
+  height: 30px;
+  background-color: #f8f8f8; }
+  .gmtop .wbox {
+    width: 1200px;
+    margin: 0 auto; }
+    .gmtop .wbox .topl {
+      float: left;
+      position: relative; }
+      .gmtop .wbox .topl .gmvip {
+        display: none;
+        position: absolute; }
+      .gmtop .wbox .topl li {
+        float: left;
+        padding: 0 10px;
+        position: relative;
+        display: flex; }
+        .gmtop .wbox .topl li a {
+          color: #888888;
+          font-size: 12px;
+          line-height: 30px; }
+        .gmtop .wbox .topl li:hover {
+          background-color: #ffffff;
+          z-index: 3; }
+          .gmtop .wbox .topl li:hover a {
+            color: red; }
+          .gmtop .wbox .topl li:hover .gmvip {
+            display: block;
+            padding: 10px;
+            border: 1px solid gray;
+            background-color: #ffffff;
+            position: absolute;
+            left: 0;
+            top: 30px; }
+            .gmtop .wbox .topl li:hover .gmvip .viptop {
+              width: 250px;
+              height: 80px;
+              background-color: #ffffff;
+              border-bottom: 1px solid gray; }
+              .gmtop .wbox .topl li:hover .gmvip .viptop div {
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                background-color: pink;
+                margin-right: 20px;
+                float: left; }
+              .gmtop .wbox .topl li:hover .gmvip .viptop p {
+                float: left;
+                font-size: 12px;
+                height: 70px;
+                line-height: 70px;
+                color: #888888; }
+                .gmtop .wbox .topl li:hover .gmvip .viptop p a {
+                  color: royalblue; }
+            .gmtop .wbox .topl li:hover .gmvip .vipbottom {
+              width: 250px;
+              height: 80px; }
+              .gmtop .wbox .topl li:hover .gmvip .vipbottom .b1 {
+                overflow: hidden; }
+                .gmtop .wbox .topl li:hover .gmvip .vipbottom .b1 p {
+                  float: left;
+                  font-size: 12px;
+                  height: 20px;
+                  line-height: 20px;
+                  color: #888888; }
+                .gmtop .wbox .topl li:hover .gmvip .vipbottom .b1 a {
+                  float: right;
+                  font-size: 12px;
+                  line-height: 20px;
+                  color: #cccccc; }
+                  .gmtop .wbox .topl li:hover .gmvip .vipbottom .b1 a:hover {
+                    color: red; }
+              .gmtop .wbox .topl li:hover .gmvip .vipbottom .b2 {
+                height: 50px;
+                background-color: hotpink; }
+    .gmtop .wbox .topr {
+      float: right; }
+      .gmtop .wbox .topr li {
+        float: left;
+        padding: 0 10px;
+        position: relative; }
+        .gmtop .wbox .topr li a {
+          color: #888888;
+          font-size: 12px;
+          height: 30px;
+          line-height: 30px;
+          display: block; }
+        .gmtop .wbox .topr li:hover {
+          background-color: #ffffff; }
+          .gmtop .wbox .topr li:hover a {
+            color: red; }
+      .gmtop .wbox .topr li:nth-child(2) .gmvip {
+        z-index: 2;
+        background-color: #ffffff;
+        display: none; }
+      .gmtop .wbox .topr li:nth-child(2):hover .gmvip {
+        display: block;
+        position: absolute;
+        width: 200px;
+        height: 180px;
+        padding: 10px;
+        border: 1px solid gray; }
+        .gmtop .wbox .topr li:nth-child(2):hover .gmvip p {
+          font-size: 12px;
+          color: #888888;
+          font-weight: 600; }
+          .gmtop .wbox .topr li:nth-child(2):hover .gmvip p a {
+            display: inline;
+            color: royalblue; }
+        .gmtop .wbox .topr li:nth-child(2):hover .gmvip ul {
+          overflow: hidden;
+          border-bottom: 1px solid gray; }
+          .gmtop .wbox .topr li:nth-child(2):hover .gmvip ul li {
+            float: left; }
+            .gmtop .wbox .topr li:nth-child(2):hover .gmvip ul li a {
+              color: #888888;
+              width: 80px; }
+              .gmtop .wbox .topr li:nth-child(2):hover .gmvip ul li a:hover {
+                color: red; }
+        .gmtop .wbox .topr li:nth-child(2):hover .gmvip .discount a {
+          color: #888888; }
+          .gmtop .wbox .topr li:nth-child(2):hover .gmvip .discount a:hover {
+            color: red; }
+        .gmtop .wbox .topr li:nth-child(2):hover .gmvip .history {
+          display: flex;
+          justify-content: space-between; }
+          .gmtop .wbox .topr li:nth-child(2):hover .gmvip .history div {
+            width: 40px;
+            height: 40px;
+            background-color: pink;
+            margin-top: 5px; }
+      .gmtop .wbox .topr li:nth-child(3) .gmvip {
+        z-index: 2;
+        display: none;
+        background-color: #ffffff; }
+      .gmtop .wbox .topr li:nth-child(3):hover .gmvip {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        right: 0;
+        border: 1px solid gray; }
+        .gmtop .wbox .topr li:nth-child(3):hover .gmvip img {
+          width: 120px;
+          height: 120px; }
+      .gmtop .wbox .topr li:nth-child(4) .gmvip {
+        z-index: 2;
+        display: none;
+        background-color: #ffffff; }
+      .gmtop .wbox .topr li:nth-child(4):hover .gmvip {
+        display: block;
+        width: 200px;
+        height: 150px;
+        padding: 10px;
+        border: 1px solid gray;
+        background-color: #ffffff;
+        position: absolute; }
+        .gmtop .wbox .topr li:nth-child(4):hover .gmvip p {
+          font-size: 12px;
+          line-height: 20px;
+          color: #888888;
+          font-weight: 600; }
+        .gmtop .wbox .topr li:nth-child(4):hover .gmvip ul {
+          overflow: hidden; }
+          .gmtop .wbox .topr li:nth-child(4):hover .gmvip ul li {
+            float: left;
+            padding: 0; }
+            .gmtop .wbox .topr li:nth-child(4):hover .gmvip ul li a {
+              width: 60px;
+              height: 20px;
+              line-height: 20px;
+              font-size: 12px;
+              color: #888888; }
+            .gmtop .wbox .topr li:nth-child(4):hover .gmvip ul li:hover a {
+              color: red; }
+        .gmtop .wbox .topr li:nth-child(4):hover .gmvip input {
+          width: 100%;
+          height: 20px;
+          margin-top: 10px;
+          font-size: 14px;
+          color: #ffffff;
+          line-height: 20px;
+          background-color: hotpink; }
+      .gmtop .wbox .topr li:nth-child(5) .gmvip {
+        z-index: 2;
+        display: none; }
+      .gmtop .wbox .topr li:nth-child(5):hover {
+        z-index: 2; }
+        .gmtop .wbox .topr li:nth-child(5):hover .gmvip {
+          display: block;
+          height: 200px;
+          width: 1200px;
+          padding: 20px;
+          position: absolute;
+          left: -1080px;
+          border: 1px solid gray;
+          background-color: #ffffff; }
+          .gmtop .wbox .topr li:nth-child(5):hover .gmvip div {
+            float: left;
+            padding: 0 10px;
+            height: 200px; }
+            .gmtop .wbox .topr li:nth-child(5):hover .gmvip div p {
+              height: 40px;
+              line-height: 40px;
+              font-size: 16px;
+              color: #888888; }
+            .gmtop .wbox .topr li:nth-child(5):hover .gmvip div ul {
+              overflow: hidden; }
+              .gmtop .wbox .topr li:nth-child(5):hover .gmvip div ul li {
+                float: left;
+                width: 60px; }
+                .gmtop .wbox .topr li:nth-child(5):hover .gmvip div ul li a {
+                  color: #888888; }
+                  .gmtop .wbox .topr li:nth-child(5):hover .gmvip div ul li a:hover {
+                    color: red; }
+          .gmtop .wbox .topr li:nth-child(5):hover .gmvip .d1 {
+            width: 250px; }
+          .gmtop .wbox .topr li:nth-child(5):hover .gmvip .d2 {
+            width: 400px;
+            border-left: 1px solid gray;
+            border-right: 1px solid gray; }
+          .gmtop .wbox .topr li:nth-child(5):hover .gmvip .d3 {
+            width: 200px; }
+          .gmtop .wbox .topr li:nth-child(5):hover .gmvip .d4 {
+            width: 110px;
+            border-left: 1px solid gray;
+            border-right: 1px solid gray; }
+          .gmtop .wbox .topr li:nth-child(5):hover .gmvip .d5 {
+            width: 110px; }
+      .gmtop .wbox .topr li:nth-child(6) .gmvip {
+        display: none;
+        z-index: 2; }
+      .gmtop .wbox .topr li:nth-child(6):hover .gmvip {
+        position: absolute;
+        right: 0;
+        border: 1px solid gray;
+        display: flex;
+        width: 150px;
+        height: 150px;
+        justify-content: center;
+        align-items: center; }
+        .gmtop .wbox .topr li:nth-child(6):hover .gmvip a {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+          background-color: #ffffff; }
+          .gmtop .wbox .topr li:nth-child(6):hover .gmvip a p {
+            color: red;
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 600; }
+
+#head .con {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between; }
+
+#head #head_c form {
+  display: flex;
+  margin-top: 10px;
+  position: relative;
+  justify-content: flex-start;
+  border: 1px solid #dd00a7; }
+  #head #head_c form .searchSelect {
+    width: 62px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #888888;
+    text-align: center;
+    position: relative;
+    border-right: 1px solid #dd00a7; }
+    #head #head_c form .searchSelect div {
+      display: none;
+      position: relative; }
+      #head #head_c form .searchSelect div a {
+        display: block;
+        width: 62px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 12px;
+        color: #888888;
+        text-align: center;
+        border-left: 1px solid #dd00a7;
+        border-right: 1px solid #dd00a7; }
+    #head #head_c form .searchSelect div:nth-child(2) {
+      border-bottom: 1px solid #dd00a7; }
+    #head #head_c form .searchSelect:hover div {
+      z-index: 2;
+      display: block;
+      background-color: #ffffff; }
+      #head #head_c form .searchSelect:hover div a:hover {
+        background-color: antiquewhite; }
+  #head #head_c form .inputcontent {
+    width: 300px;
+    background-color: #ffffff;
+    outline: none; }
+  #head #head_c form .search {
+    width: 60px;
+    color: #ffffff;
+    background-color: #dd00a7; }
+  #head #head_c form .searchlocal {
+    width: 50px;
+    color: #ffffff;
+    background-color: #888888;
+    margin-left: 2px; }
+  #head #head_c form ul {
+    position: absolute;
+    top: 35px;
+    width: 110%; }
+    #head #head_c form ul li {
+      float: left; }
+      #head #head_c form ul li a {
+        display: block;
+        padding-right: 5px;
+        color: #888888;
+        font-size: 12px; }
+        #head #head_c form ul li a:hover {
+          color: red; }
+
+#head #head_r {
+  margin-top: 10px; }
+  #head #head_r a {
+    display: block;
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #888888;
+    text-indent: 50px;
+    background-image: url("../images/ia_100000272.gif"); }
+    #head #head_r a:hover {
+      color: red;
+      text-decoration: underline; }
+
+#nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #dd00a7; }
+  #nav .wbox {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative; }
+  #nav .navl {
+    float: left;
+    width: 200px;
+    height: 40px;
+    color: #888888;
+    font-weight: 600;
+    text-indent: 20px;
+    line-height: 40px;
+    background-color: #f2f2f2; }
+  #nav .navc {
+    float: left; }
+    #nav .navc li {
+      float: left;
+      padding: 0 10px; }
+      #nav .navc li a {
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        font-weight: 400;
+        color: black; }
+        #nav .navc li a:hover {
+          color: #dd00a7; }
+  #nav .navr {
+    position: absolute;
+    right: 0;
+    top: 10px; }
+
+#commend .wbox {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 30px;
+  height: 200px;
+  background-color: #f8f8f8;
+  position: relative;
+  width: 1180px;
+  padding-left: 20px; }
+  #commend .wbox .hotsale {
+    display: block;
+    float: left;
+    width: 40px;
+    height: 36px;
+    line-height: 18px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #ff5757;
+    color: #ffffff;
+    margin-right: 20px; }
+  #commend .wbox .hotsale::after {
+    content: '';
+    float: left;
+    border-top: #ff5757 18px solid;
+    border-left: #f8f8f8 20px solid;
+    border-right: #f8f8f8 20px solid; }
+  #commend .wbox .goodsList {
+    float: left;
+    width: 1100px;
+    height: 220px; }
+    #commend .wbox .goodsList ul {
+      height: 338px; }
+      #commend .wbox .goodsList ul li {
+        float: left; }
+        #commend .wbox .goodsList ul li a {
+          display: block;
+          width: 273px;
+          height: 169px;
+          color: #888888; }
+          #commend .wbox .goodsList ul li a img {
+            display: block;
+            float: left;
+            width: 120px;
+            height: 120px;
+            margin: 25px 10px 0;
+            border: 1px solid #888888; }
+          #commend .wbox .goodsList ul li a p {
+            overflow: hidden;
+            height: 40px;
+            line-height: 20px;
+            font-size: 12px;
+            padding-top: 30px; }
+            #commend .wbox .goodsList ul li a p span {
+              color: #f5004b; }
+          #commend .wbox .goodsList ul li a p:last-child {
+            padding: 0; }
+    #commend .wbox .goodsList .changeColor {
+      width: 80px;
+      font-size: 14px;
+      border: 1px solid #cccccc;
+      margin-left: 140px;
+      text-align: center; }
+
+#phone .wbox {
+  width: 1200px;
+  margin: 0 auto; }
+  #phone .wbox ul {
+    width: 100%;
+    overflow: hidden; }
+    #phone .wbox ul li {
+      float: left;
+      height: 20px;
+      padding: 5px;
+      color: #888888;
+      font-size: 14px; }
+    #phone .wbox ul .addBorder {
+      border: 1px solid #cccccc; }
+    #phone .wbox ul li:first-child {
+      color: #000000;
+      font-weight: 800; }
+
+#phoneBrand .wbox {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #f8f8f8; }
+  #phoneBrand .wbox span {
+    position: absolute;
+    left: 170px;
+    color: #888888; }
+  #phoneBrand .wbox ul {
+    width: 720px;
+    height: 105px;
+    margin: 10px auto;
+    overflow: hidden; }
+    #phoneBrand .wbox ul li {
+      width: 100px;
+      height: 50px;
+      float: left;
+      border: 1px solid #cccccc; }
+      #phoneBrand .wbox ul li img {
+        width: 100%;
+        height: 100%; }
+
+#phoneGoods .wbox {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden; }
+  #phoneGoods .wbox .salesList {
+    width: 190px;
+    height: 735px;
+    float: left;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-top: 3px solid #cccccc; }
+    #phoneGoods .wbox .salesList .title {
+      width: 100%;
+      text-align: center; }
+    #phoneGoods .wbox .salesList li {
+      position: relative;
+      padding: 10px 0;
+      width: 100%;
+      height: 100px;
+      cursor: pointer;
+      border-bottom: 1px solid #cccccc; }
+      #phoneGoods .wbox .salesList li em {
+        position: absolute;
+        width: 15px;
+        height: 20px;
+        left: 0;
+        text-align: center;
+        color: #ffffff;
+        font-size: 12px;
+        background: url("../images/topbg.png");
+        background-position: 15px 0; }
+      #phoneGoods .wbox .salesList li .bot {
+        background-position: 0 20px; }
+      #phoneGoods .wbox .salesList li img {
+        width: 100px;
+        height: 100px;
+        display: block;
+        float: left; }
+      #phoneGoods .wbox .salesList li p {
+        float: right;
+        font-size: 12px;
+        color: #888888;
+        width: 80px;
+        height: 50px;
+        overflow: hidden; }
+      #phoneGoods .wbox .salesList li span {
+        font-size: 14px;
+        color: red; }
+  #phoneGoods .wbox .goods {
+    width: 960px;
+    float: right; }
+    #phoneGoods .wbox .goods li {
+      width: 240px;
+      height: 400px;
+      float: left; }
+      #phoneGoods .wbox .goods li p {
+        width: 210px;
+        height: 20px;
+        line-height: 20px;
+        margin: 0 auto;
+        font-size: 12px;
+        overflow: hidden; }
+      #phoneGoods .wbox .goods li img {
+        display: block;
+        margin: 10px auto;
+        cursor: pointer; }
+      #phoneGoods .wbox .goods li .price {
+        width: 210px;
+        margin: 0 auto;
+        font-size: 20px;
+        color: red; }
+      #phoneGoods .wbox .goods li .desc a {
+        color: #888888; }
+      #phoneGoods .wbox .goods li .slogin {
+        color: red; }
+      #phoneGoods .wbox .goods li .evaluation {
+        margin: 10px auto; }
+        #phoneGoods .wbox .goods li .evaluation span {
+          color: blue;
+          cursor: pointer; }
+      #phoneGoods .wbox .goods li .option {
+        display: none;
+        border: 1px solid #cccccc;
+        margin-top: 30px; }
+        #phoneGoods .wbox .goods li .option span {
+          display: inline-block;
+          width: 48%;
+          text-align: center;
+          cursor: pointer; }
+        #phoneGoods .wbox .goods li .option .iconfont {
+          font-size: 20px;
+          color: tomato; }
+      #phoneGoods .wbox .goods li .desc_slogin {
+        height: 40px; }
+        #phoneGoods .wbox .goods li .desc_slogin a {
+          color: #888888; }
+
+#tail .wbox {
+  width: 1200px;
+  margin: 0 auto;
+  height: 100px;
+  background-color: #f5f5f5;
+  margin: 30px auto; }
+  #tail .wbox ul li {
+    float: left;
+    width: 33%;
+    text-align: center;
+    padding-top: 20px; }
+    #tail .wbox ul li i {
+      position: relative;
+      top: 8px;
+      font-size: 40px;
+      color: #de08aa; }
+    #tail .wbox ul li a {
+      font-size: 20px;
+      color: #000000; }
+    #tail .wbox ul li .taila {
+      font-weight: 700; }
+    #tail .wbox ul li span {
+      color: #cccccc;
+      padding: 0 5px;
+      font-size: 20px; }
+
+#gomehelp {
+  border-bottom: 1px solid #e74ccc; }
+  #gomehelp .wbox {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly; }
+    #gomehelp .wbox dl {
+      float: left;
+      width: 160px;
+      height: 150px; }
+      #gomehelp .wbox dl dt {
+        color: #5e5e5e;
+        font-size: 16px; }
+      #gomehelp .wbox dl dd a {
+        height: 18px;
+        line-height: 18px;
+        font-size: 12px;
+        color: #a5a5a5; }
+        #gomehelp .wbox dl dd a:hover {
+          color: #e74ccc; }
+
+#foot {
+  background-color: #f7f7f7;
+  overflow: hidden;
+  padding-bottom: 40px; }
+  #foot .wbox {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px; }
+    #foot .wbox .footTop {
+      display: inline-block;
+      margin: 0 50px 40px 0; }
+      #foot .wbox .footTop p {
+        display: inline-block;
+        height: 40px;
+        margin-left: 10px; }
+        #foot .wbox .footTop p a {
+          font-size: 12px;
+          color: #a5a5a5; }
+          #foot .wbox .footTop p a:hover {
+            color: #f5004b; }
+      #foot .wbox .footTop i {
+        font-size: 40px; }
+    #foot .wbox .footbot .footul {
+      margin: 5px 0;
+      overflow: hidden; }
+      #foot .wbox .footbot .footul li {
+        float: left;
+        font-size: 14px;
+        margin-right: 10px;
+        color: #a5a5a5; }
+        #foot .wbox .footbot .footul li a {
+          font-size: 14px;
+          color: #666666; }
+          #foot .wbox .footbot .footul li a:hover {
+            color: #ff0027; }
+    #foot .wbox .footbot p {
+      height: 20px;
+      line-height: 20px;
+      font-size: 12px;
+      color: #a5a5a5; }
+      #foot .wbox .footbot p a {
+        font-size: 12px;
+        color: #a5a5a5; }
+        #foot .wbox .footbot p a:hover {
+          color: #ff0027; }

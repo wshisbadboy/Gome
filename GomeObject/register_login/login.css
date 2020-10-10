@@ -1,0 +1,60 @@
+
+#logo{
+  border-bottom: 1px solid #fee6bc;
+}
+#logo .conBox{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 30px 0;
+  overflow: hidden;
+}
+.logo{
+  float: left;
+}
+.login{
+  float: right;
+}
+.login a{
+  color: blue;
+}
+
+#content,.container{
+  height: 480px;
+  margin: 0 auto;
+  background-image: url(loginbg.jpg);
+  background-size: 100% 100%;
+}
+
+
+#foot {
+  background-color: #f7f7f7;
+  overflow: hidden;
+  padding: 40px;
+  border-top: 1px solid red; }
+  #foot .wbox {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px; }
+    #foot .wbox .footbot .footul {
+      margin: 5px 0;
+      overflow: hidden; }
+      #foot .wbox .footbot .footul li {
+        float: left;
+        font-size: 14px;
+        margin-right: 10px;
+        color: #a5a5a5; }
+        #foot .wbox .footbot .footul li a {
+          font-size: 14px;
+          color: #666666; }
+          #foot .wbox .footbot .footul li a:hover {
+            color: #ff0027; }
+    #foot .wbox .footbot p {
+      height: 20px;
+      line-height: 20px;
+      font-size: 12px;
+      color: #a5a5a5; }
+      #foot .wbox .footbot p a {
+        font-size: 12px;
+        color: #a5a5a5; }
+        #foot .wbox .footbot p a:hover {
+          color: #ff0027; }
